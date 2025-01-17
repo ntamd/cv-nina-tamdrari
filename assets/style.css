@@ -1,0 +1,99 @@
+body {
+    font-family: 'Lato', sans-serif; 
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 600;
+    color: #4A4A4A;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #777;
+    margin: 0 20px;
+    font-weight: 400;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+#about .photo {
+    margin-right: 20px; 
+}
+
+#about .photo img {
+    width: 200px; 
+    height: auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease; 
+}
+
+#about .intro {
+    max-width: 600px; 
+    text-align: left; 
+}
+
+.intro h2 {
+    font-size: 36px;
+    color: #4A4A4A;
+    font-weight: 600;
+    margin: 0; 
+}
+
+.intro p {
+    font-size: 18px;
+    color: #777;
+    margin-top: 10px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #4A4A4A;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
